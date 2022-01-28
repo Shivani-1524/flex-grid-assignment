@@ -1,0 +1,15 @@
+/* SNACKBAR STYLES */
+.snackbar {
+  background-color: var(--black-grey);
+  display: flex;
+  color: var(--white);
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  width: fit-content;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.snackbar p {
+  margin-right: 10px;
+}

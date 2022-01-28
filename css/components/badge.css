@@ -1,0 +1,53 @@
+/* BADGE STYLES */
+
+.badge-content {
+  display: flex;
+}
+
+.badge-txt {
+  position: relative;
+  padding: 15px;
+  width: fit-content;
+  font-size: 20px;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 50%;
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  background-color: var(--red);
+  width: 23px;
+  height: 23px;
+  position: absolute;
+}
+
+.icon-badge {
+  position: relative;
+  padding: 17px;
+  font-size: 20px;
+}
+
+.badge-btn {
+  width: fit-content;
+  height: auto;
+  margin: 0px;
+  position: relative;
+}
+
+.badge.pos-topright {
+  top: 0px;
+  right: 0px;
+}
+.badge.overlap-topright {
+  top: 7px;
+  right: 7px;
+}
+
+.badge.overlap-topleft {
+  top: 7px;
+  left: 7px;
+}

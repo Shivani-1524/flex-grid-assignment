@@ -1,0 +1,30 @@
+/* HEADER STYLE */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--black-grey);
+  color: var(--white);
+}
+
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.lg-icon-btn i {
+  font-size: 22px;
+}
+
+.header-start {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.header-title {
+  font-weight: 600;
+  font-size: 17px;
+}

@@ -1,0 +1,30 @@
+/* TABS STYLES */
+.tabs-container {
+  display: grid;
+  grid-auto-flow: column;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.tab {
+  padding: 10px 0px;
+  font-size: 19px;
+  text-align: center;
+  border-bottom: 3px solid var(--chip-grey);
+}
+.tab.focused {
+  border-bottom: 3px solid var(--light-purple);
+}
+.tab:hover {
+  background-color: var(--light-purple-op50);
+  cursor: pointer;
+}
+.style2 .tab i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.style2 i {
+  padding-bottom: 10px;
+}
