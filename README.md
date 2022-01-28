@@ -1,2 +1,13 @@
 # flex-grid-assignment
- Components that I've built to practice flex and grid in CSS
+
+Built to practice flex and grid in CSS.
+The components:
+
+- Cards
+- Chips
+- Drawer
+- Header
+- Snackbar
+- Tabs
+- Dialog
+- Badge
